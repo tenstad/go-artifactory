@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/atlassian/go-artifactory/v2/artifactory"
-	"github.com/atlassian/go-artifactory/v2/artifactory/transport"
+	"github.com/tenstad/go-artifactory/v2/artifactory"
+	"github.com/tenstad/go-artifactory/v2/artifactory/transport"
 )
 
 func main() {
