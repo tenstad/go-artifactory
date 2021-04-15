@@ -174,7 +174,6 @@ type RemoteRepository struct {
 	AssumedOfflinePeriodSecs          *int                    `json:"assumedOfflinePeriodSecs,omitempty"`
 	BlackedOut                        *bool                   `json:"blackedOut,omitempty"`
 	BlockMismatchingMimeTypes         *bool                   `json:"blockMismatchingMimeTypes,omitempty"`
-	BlockPushingSchema1               *bool                   `json:"blockPushingSchema1,omitempty"`
 	BlockXrayUnscannedArtifacts       *bool                   `json:"blockXrayUnscannedArtifacts,omitempty"`
 	BypassHeadRequests                *bool                   `json:"bypassHeadRequests,omitempty"`
 	ContentSynchronisation            *ContentSynchronisation `json:"contentSynchronisation,omitempty"`
