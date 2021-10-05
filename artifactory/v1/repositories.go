@@ -236,6 +236,8 @@ type RemoteRepository struct {
 	VcsGitProvider                    *string                 `json:"vcsGitProvider,omitempty"`
 	VcsGitDownloadUrl                 *string                 `json:"vcsGitDownloadUrl,omitempty"`
 	ClientTLSCertificate              *string                 `json:"clientTlsCertificate,omitempty"`
+	ExternalDependenciesEnabled       *bool                   `json:"externalDependenciesEnabled,omitempty"`
+	ExternalDependenciesPatterns      *[]string               `json:"externalDependenciesPatterns,omitempty"`
 	PyPiRegistryUrl                   *string                 `json:"pyPiRegistryUrl,omitempty"`
 	// Deprecated since 6.9. Replaced with fields FeedContextPath, DownloadContextPath, V3FeedUrl below
 	Nuget *Nuget `json:"nuget,omitempty"`
